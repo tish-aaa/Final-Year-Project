@@ -4,10 +4,10 @@ import { Link, useRouter } from "expo-router";
 
 export default function Index() {
   const router = useRouter();
-  const onLogin = () => {
+  const onLoginBtnClick = () => {
     router.navigate("/login")
   };
-  const onSignup = () => {
+  const onSignupBtnClick = () => {
     router.navigate("/signup")
   };
   return (
@@ -20,9 +20,9 @@ export default function Index() {
       }}
     >
       <Text style={styles.titleText}>Hello there, Welcome Back!</Text>
-      <MyButton title={"Login"} onPress={onLogin}/>
+      <MyButton title={"Login"} onPress={onLoginBtnClick}/>
       <Text style={styles.text}>Not signed up yet? Click below! </Text>
-      <MyButton title={"SignUp"} onPress={onSignup}/>
+      <MyButton title={"Sign Up"} onPress={onSignupBtnClick}/>
     </View>
   );
 }
