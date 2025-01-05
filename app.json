@@ -16,7 +16,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.yourcompany.yourappname",
+      "package": "com.outift_maven",
       "versionCode": 1    
     },
     "web": {
