@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "final-year-project-outfit-maven",
-    "slug": "final-year-project-outfit-maven",
+    "name": "outfit-maven",
+    "slug": "outfit-maven",
     "version": "1.0.0",
+    "scheme": "outfit-maven",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
