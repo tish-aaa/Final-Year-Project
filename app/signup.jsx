@@ -1,5 +1,5 @@
 import { View, Text, Image, TextInput } from 'react-native'
-import MyButton from "@/app-example/components/MyButton";
+import MyButton from "../components/myButton";
 import { Link, useRouter } from "expo-router";
 
 const SignUp = () => {
@@ -12,7 +12,7 @@ const SignUp = () => {
             style={{
                 flex: 1
             }}>
-            <Image source={require("@/assets/images/signup_img.jpg")} style={{
+            <Image source={require("../assets/images/signup_img.jpg")} style={{
                 width: "100%", height: 400,
             }}
                 resizeMode='cover'

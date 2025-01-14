@@ -1,4 +1,4 @@
-import MyButton from "@/app-example/components/MyButton";
+import MyButton from "../components/myButton";
 import { StyleSheet, Text, View } from "react-native";
 import { Link, useRouter } from "expo-router";
 
